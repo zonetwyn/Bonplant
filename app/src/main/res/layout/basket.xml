@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    android:background="@drawable/basket_enabled">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_shopping_basket"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/basketCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp"
+            android:paddingEnd="22dp"
+            android:gravity="end"
+            android:layout_gravity="end|center"
+            android:text="1"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite" />
+
+    </FrameLayout>
+
+</LinearLayout>
